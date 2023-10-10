@@ -1,0 +1,2065 @@
+<!doctype html>
+
+
+<html lang="es" class="no-js">
+  <head>
+    <meta charset="utf-8">
+	<title>Cleach the Beach</title>
+    <meta name="author" content="Pablo Borda">
+    <meta name="keywords" content="Playas, Punta del este, Maldonado, Rocha, Canelones, Arena, Punta, Verano, Eventos">
+    <meta name="description" content="Estamos enfocados en la informacion de playas del Uruguay">
+    <meta name="robots" content="index"/>	
+    <meta name="copyright" content="softech" />	
+		
+	<!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      
+
+     <!--styles -->
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+   crossorigin=""/>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" href="css/etlinefont.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="css/style.css" type="text/css"  rel="stylesheet"/>
+
+
+   <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    
+	<body  data-spy="scroll" data-target="#main-menu">
+ 
+
+  <!--Start Page loader -->
+  <div id="pageloader">   
+        <div class="loader">
+          <img src="images/progress.gif" alt='loader' />
+        </div>
+   </div>
+   <!--End Page loader -->
+   
+      
+   <!--Start Navigation-->
+		<header id="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="fa fa-bars"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+                            <!--Start Logo  -->
+							<div class="logo-nav">
+								<a href="index.html">
+									<h1 id="titulo">Cleach</h1>
+								</a>
+							</div>
+                       
+                            <!--End Logo -->
+							<div class="clear-toggle"></div>
+							<div id="main-menu" class="collapse scroll navbar-right">
+								<ul class="nav">
+                                
+									<li class="active"> <a href="#home">Inicio</a> </li>
+									
+									
+                                    
+                                    <li> <a href="#cta">Mapa </a> </li>
+                                    
+                                    <li> <a href="#works">Playas</a> </li>
+
+                                    <li> <a href="#video">Eventos</a> </li>
+                                    
+                                     <li> <a href="#clients">sponsors</a> </li>
+                                   
+                                     
+								
+                                     
+									<li> <a href="#contact">Contacto</a> </li>
+										
+								</ul>
+							</div><!-- end main-menu -->
+						</div>
+					</div>
+				</div>
+			</header>
+    <!--End Navigation-->
+
+      
+        <!-- Start Slider  -->
+        <section id="home" class="home">
+            <div class="slider-overlay"></div>
+           <div class="flexslider">
+               <ul class="slides scroll">
+                   <li class="first">
+                       <div class="slider-text-wrapper">  
+                           <div class="container1">
+                            
+                              
+                                   
+                              
+                           </div>    
+                           
+                       </div>
+                     <video src="videos/videobannerlogo.mp4" autoplay loop muted></video>
+
+                       
+                   </li>
+                </ul>
+            </div>
+        </section>
+                    <!-- 
+                    <li class="secondary">
+                        <div class="slider-text-wrapper"> 
+                            <div class="container">                       
+                                <div class="big">La informacion que necesitas, </div>          
+                                <div class="big">en la palma de tu mano</div>
+                                
+                            </div>
+                         </div>
+                        <img src="images/slider/imagen2.PNG" alt="">
+                    </li>
+                    
+                    <li class="third">
+                        <div class="slider-text-wrapper"> 
+                            <div class="container">                              
+                                <div class="big">La informacion que necesitas, </div>          
+                                <div class="big">en la palma de tu mano</div>
+                                
+                             </div>
+                        </div>
+                        <img src="images/slider/imagen2.PNG" alt="">
+                    </li>
+                
+                </ul>
+            </div>
+        </section>
+    -->
+         <!--    End Slider   -->
+ <!--Start BUSCADOR-->
+ <section id="facts" class="section parallax">
+    <div class="overlay"></div>
+   <div class="container">
+       <div class="row">
+       
+             <div class="title-box text-center white">
+                <h2 id="title-busqueda">Click Your Beach</h2>
+             </div>
+         
+         <div class="col-md-12">
+             <div class="video-caption-main">
+                  <!--Video caption #1-->
+                  <div class="video-caption">
+                     
+                      
+                       
+              
+
+                     <div class="search-container">
+                        <input type="text" placeholder="Busca tu playa..." name="search" id="search-input" oninput="buscarPlaya()">
+                           </div>
+
+                           <ul id="playa-list">
+                            <li><a href="Playa-Bella-Vista.html">Bella vista</a></li>
+                            <li><a href="Playa-Bikini.html">Bikini</a></li>
+                            <li><a href="Playa-Brava-De-Jose-Ignacio.html">Brava de Jose Ignacio</a></li>
+                            <li><a href="Playa-Brava-P5-P6-P7.html">Brava Parada 5,6,7</a></li>
+                            <li><a href="Playa-Brava-P8.html">Brava parada 8</a></li>
+                            <li><a href="Playa-Brava-P9-P10.html">Brava parada 9 y 10</a></li>
+                            <li><a href="Playa-Brava-P11-P12-P13.html">Brava parada 11, 12 y 13</a></li>
+                            <li><a href="Playa-Brava-P14-P15-P16.html">Brava parada 14, 15 y 16</a></li>
+                            <li><a href="Playa-Brava-P17-P18.html">Brava parada 17 y 18</a></li>
+                            <li><a href="Playa-Brava-P19-p20.html">Brava parada 19 y 20</a></li>
+                            <li><a href="Playa-Brava-P21.html">Brava parada 21</a></li>
+                            <li><a href="Playa-Brava-P25.html">Brava parada 25</a></li>
+                            <li><a href="Playa-Brava-P30.html">Brava parada 30</a></li>
+                            <li><a href="Playa-Brava-P32.html">Brava parada 32</a></li>
+                            <li><a href="Playa-Chihuahua.html">Chihuahua</a></li>
+                            <li><a href="Playa-de-los-ingleses.html">Playa De los ingleses</a></li>
+                            <li><a href="Playa-El-Chorro.html">El chorro</a></li>
+                            <li><a href="Playa-El-Emir.html">El Emir</a></li>
+                            <li><a href="Playa-grande.html">Playa grande</a></li>
+                            <li><a href="Playa-Hermosa.html">Playa hermosa</a></li>
+                            <li><a href="Playa-La-Barra.html">La barra</a></li>
+                            <li><a href="Playa-La-Juanita.html">La Juanita</a></li>
+                            <li><a href="Playa-Las-Flores.html">Las Flores</a></li>
+                            <li><a href="Playa-Las-Grutas.html">La Grutas</a></li>
+                            <li><a href="Playa-Los-Dedos.html">Los Dedos</a></li>
+                            <li><a href="Playa-Mansa-De-Jose-Ignacio.html">Mansa de Jose Ignacio</a></li>
+                            <li><a href="Playa-Mansa-Muelle-Milos.html">Muelle Mailhos</a></li>
+                            <li><a href="Playa-Mansa-P1.html">Mansa parada 1</a></li>
+                            <li><a href="Playa-Mansa-P2.html">Mansa parada 2</a></li>
+                            <li><a href="Playa-Mansa-P3.html">Mansa parada 3</a></li>
+                            <li><a href="Playa-Mansa-P5.html">Mansa parada 5</a></li>
+                            <li><a href="Playa-Mansa-P7-p6.html">Mansa parada 6 y 7</a></li>
+                            <li><a href="Playa-Mansa-P9-p8.html">Mansa parada 8 y 9</a></li>
+                            <li><a href="Playa-Mansa-P11-P10.html">Mansa parada 10 y 11</a></li>
+                            <li><a href="Playa-Mansa-P16-p12.html">Mansa parada 12, 13, 14, 15 y 16</a></li>
+                            <li><a href="Playa-Mansa-P24-p19.html">Mansa parada 19, 20, 21, 22 y 23</a></li>
+                            <li><a href="Playa-Montoya.html">Playa Montoya</a></li>
+                            <li><a href="Playa-Ocean-Park.html">Ocean Park</a></li>
+                            <li><a href="Playa-Pinares-P39-P27.html">Pinares parada 27 a 39</a></li>
+                            <li><a href="Playa-Piriapolis.html">Piriapolis</a></li>
+                            <li><a href="Playa-Playa-Buenos-Aires.html">Playa Balneario Buenos Aires</a></li>
+                            <li><a href="Playa-Posta-Del-Cangrejo.html">Posta del cangrejo</a></li>
+                            <li><a href="Playa-Punta-Colorada.html">Punta colorada</a></li>
+                            <li><a href="Playa-Puntas-del-chileno.html">Puntas del chileno</a></li>
+                            <li><a href="Playa-San-Francisco.html">San Francisco</a></li>
+                            <li><a href="Playa-Santa-Monica.html">Santa Monica</a></li>
+                            <li><a href="Playa-Solanas.html">Solanas</a></li>
+                            <li><a href="Playa-Solis.html">Solis</a></li>
+                            <li><a href="Playa-Tio-Tom.html">Tio Tom</a></li>
+                            <li><a href="Playa-Verde.html">Playa Verde</a></li>
+                            
+                            <!-- Agrega más playas a la lista -->
+                          </ul>
+
+                      
+                  </div>
+                  
+                  
+                  
+             </div>
+         </div>
+       </div> <!-- /.row-->
+   </div> <!-- /.container-->
+</section>
+<!--End BUSCADOR-->
+
+  <!--Start Features-->
+  <section  id="about" class="section">
+       <div class="container">
+           <div class="row">
+              
+              <!-- Features Icon-->
+              <div class="col-md-12">
+                  <div class="features-icon-box">
+                  
+                      <div class="features-icon">
+                        <i class="fa-solid fa-umbrella-beach"></i>
+                      </div>
+                      
+                      
+                      <div class="features-info">
+                         <h4>Cleach Uruguay: la web que te acerca al mar</h4>
+                         <br>
+                         <p>¿Te gustan las playas? ¿Quieres conocer las mejores playas de Uruguay? ¿Quieres saber qué actividades puedes hacer en ellas? Entonces, estas en el lugar indicado. Aquí encontrarás toda la información que necesitas, desde el clima, el agua, el viento y la arena, hasta los servicios, las actividades y las noticias. Podrás buscar y comparar las playas según tus preferencias, ver fotos y tener informacion en tiempo real.</p>
+                      </div>
+                  </div>
+              </div>
+ 
+               
+
+              
+           </div> <!-- /.row-->
+       </div> <!-- /.container-->
+  </section> 
+  <!--End Features-->
+
+ 
+  <!-- Start Facts-->
+  <section id="facts" class="section parallax">
+    <div class="overlay"></div>
+       <div class="container">
+           <div class="row">
+                  
+                <!-- Start Item-->
+                <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
+                    <span><i class="material-symbols-outlined">
+                        map
+                        </i></span>
+                   
+                    <h3>3</h3>
+                    <span>Departamentos</span>
+                </div>
+                <!-- End Item-->
+                
+                 <!-- Start Item-->
+                <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
+                 <span><i class="material-symbols-outlined">
+                    beach_access</i></span>
+                    <h3>48</h3>
+                    <span>Playas</span>
+                </div>
+                <!-- End Item-->
+
+                 <!-- Start Item-->
+                <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
+                 <span><i class="material-symbols-outlined">
+                    photo_camera
+                    </i></span>
+                    <h3>95</h3>
+                    <span>Bajadas</span>
+                </div>
+                <!-- End Item-->
+
+                 <!-- Start Item-->
+                <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
+                 <span><i  class="material-symbols-outlined">
+                    restaurant
+                    </i></span>
+                    <h3>24</h3>
+                    <span>Paradores</span>
+                </div>
+                <!-- End Item-->
+                
+             </div> <!-- /.row -->
+       </div> <!-- /.container -->
+  </section>
+  <br><br><br><br><br>
+  <!--End Facts-->
+
+  
+  <!--Mapa-->
+  
+<!--Start Call To Action-->
+<section id="cta" class="parallax">
+    <div class="overlay"></div>
+    <div class=""></div>
+      <div class="container">
+          <div class="row text-center">
+            <div id="map">
+
+
+            </div>
+        </div>
+      </div>
+</section>
+<br><br><br><br><br>
+<!--End Call To Action-->
+
+
+
+  
+  <!--End Mapa-->
+  
+   
+     <!--Start History-->
+    
+    
+   <!--End History-->
+   
+
+   <!--Start portfolio-->
+   <section id="works" class="section">
+				<!-- Filtering -->
+                  <div class="title-box text-center">
+                    <h2 class="title">Playas</h2>
+                 </div>
+
+
+					<div class=" col-md-12 text-center">
+						<!-- Filtering -->
+						<ul class="filtering">
+							<li class="filter" data-filter="all">Todas</li>
+                            <li class="filter" data-filter="fashion">Maldonado</li>
+                            <li class="filter" data-filter="wedding">Punta del Este</li>
+                            <li class="filter" data-filter="event">La Barra</li>
+							<li class="filter" data-filter="corporate">Rocha Proximamente</li>
+                        <!-- 
+							<li class="filter" data-filter="event">Canelones</li>
+							<li class="filter" data-filter="wedding">Montevideo</li>
+							<li class="filter" data-filter="corporate">Rocha</li>
+                        -->
+						</ul>
+					</div>
+                
+				<div class="work-main">
+					<!-- Work Grid -->
+					<ul class="work-grid">
+
+
+						   <!-- MALDONADO -->
+						<!-- Work Item -->
+						<li class="work-item thumnail-img mix fashion">
+							<div class="work-image">
+                                <img src="images/playas/fotos solis/Portada.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Solis.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Solis</h4>
+                                    <p>  Playa agreste y tranquila  </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                        <!-- Work Item -->
+						<li class="work-item thumnail-img mix fashion">
+							<div class="work-image">
+                                <img src="images/playas/fotos bella vista/Portada.JPG" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Bella-Vista.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Bella vista</h4>
+                                    <p>  Zonas Arboladas </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                            <!-- Work Item -->
+						<li class="work-item thumnail-img mix fashion">
+							<div class="work-image">
+                                <img src="images/playas/Solis-Bella vista-Las flores/portada bella vista.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Las-Flores.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Las flores</h4>
+                                    <p>  Acceso por calles angostas  </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                        <!-- Work Item -->
+						<li class="work-item thumnail-img mix fashion">
+							<div class="work-image">
+                                <img src="images/playas/Solis-Bella vista-Las flores/segunda.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Verde.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Verde</h4>
+                                    <p> Playa angosta y agrestre  </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                            <!-- Work Item -->
+						<li class="work-item thumnail-img mix fashion">
+							<div class="work-image">
+                                <img src="images/playas/Playa hermosa/portada.JPG" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Hermosa.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Hermosa</h4>
+                                    <p>  Playa amplia entre rocas  </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                          <!-- Work Item -->
+						<li class="work-item thumnail-img mix fashion">
+							<div class="work-image">
+                                <img src="images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-grande.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Grande</h4>
+                                    <p>  Playa agreste y amplia  </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+                          <!-- Work Item -->
+						<li class="work-item thumnail-img mix fashion">
+							<div class="work-image">
+                                <img src="images/playas/fotos Piriapolis/portada.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Piriapolis.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Piriapolis</h4>
+                                    <p>  Playa angosta y concurrida  </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+                             <!-- Work Item -->
+						<li class="work-item thumnail-img mix fashion">
+							<div class="work-image">
+                                <img src="images/playas/fotos san francisco/Portada.JPG" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-San-Francisco.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa San Francisco</h4>
+                                    <p>  Playa amplia y agreste  </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+                              <!-- Work Item -->
+						<li class="work-item thumnail-img mix fashion">
+							<div class="work-image">
+                                <img src="images/playas/fotos punta colorada/portada.JPG" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Punta-Colorada.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Punta Colorada</h4>
+                                    <p>  Playa amplia con grandes Rocas  </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                               <!-- Work Item -->
+						<li class="work-item thumnail-img mix fashion">
+							<div class="work-image">
+                                <img src="images/playas/playa ocean park/portada.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Ocean-Park.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Ocean Park</h4>
+                                    <p>  Playa agreste, muy amplia y tranquila  </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+   
+                                 <!-- Work Item -->
+						<li class="work-item thumnail-img mix fashion">
+							<div class="work-image">
+                                <img src="images/playas/chiuahua/portada.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Chihuahua.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Chihuahua</h4>
+                                    <p>  playa nudista </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+                                <!-- Work Item -->
+						<li class="work-item thumnail-img mix fashion">
+							<div class="work-image">
+                                <img src="images/playas/tio tom/portada.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Tio-Tom.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Tio Tom</h4>
+                                    <p>  Playa amplia y tranquila </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+                                    <!-- Work Item -->
+						<li class="work-item thumnail-img mix fashion">
+							<div class="work-image">
+                                <img src="images/playas/Playa solanas/portada.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Solanas.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Solanas</h4>
+                                    <p>  Playa amplia, especial para niños  </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+
+
+
+
+                
+						<!-- END MALDONADO -->
+						
+                      <!-- PUNTA DEL ESTE -->
+
+                     <!-- PUNTA DEL ESTE playa mansa -->
+
+                        <!-- Work Item -->
+
+                       
+						<li class="work-item thumnail-img mix wedding">
+                            
+							<div class="work-image">
+                                <video src="videos/playa mansa preview.mp4" loop autoplay muted alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                  
+        
+                                  
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                               
+
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+
+                                  <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/Las Grutas/portada.png" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Las-Grutas.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa las Grutas</h4>
+                                    <p>   Playa amplia con espectacular vista </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+                                  <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Puntas-del-chileno.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Puntas del chileno</h4>
+                                    <p>  Explanada Para pesca </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                                <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/pinares 34, 39/portada.JPG" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Pinares-P39-P27.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Pinares PARADA 39 a 27</h4>
+                                    <p>  los mejores atardeceres</p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                                 <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/mansa 24 a 19/Portada.JPG" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Mansa-P24-p19.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Mansa PARADA 24 a 19</h4>
+                                    <p>  La mejor vista a gorriti</p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                               <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/parada 16 mansa/portada.JPG" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Mansa-P16-p12.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Mansa PARADA 18 a 12</h4>
+                                    <p> Playa Amplia con mirador a la isla Gorriti</p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+  
+                                    <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/mansa 24 a 19/primera.JPG" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Mansa-P11-P10.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Mansa PARADA 10 y 11</h4>
+                                    <p> playas muy concurridas</p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                                         <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/mansa parada 8 y 9/portada.JPG" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Mansa-P9-p8.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Mansa PARADA 8 y 9</h4>
+                                    <p> Playas ideales para niños, con Area deportiva y duchas </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                                             <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/Mansa parada 1, 2,3,5/Portada.png" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Mansa-P7-p6.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Mansa PARADA 7 y 6</h4>
+                                    <p> Playas amplias ideales para niños </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                                                <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/Mansa parada 1, 2,3,5/primera.png" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Mansa-P5.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Mansa PARADA 5</h4>
+                                    <p> Playa Amplia, alquiler de motos de agua</p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+  
+                                                  <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/Mansa parada 1, 2,3,5/Portada.png" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Mansa-P3.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Mansa PARADA 3</h4>
+                                    <p> Playa con muelle para pesca</p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+                         <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/Mansa parada 1, 2,3,5/primera.png" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Mansa-P2.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Mansa PARADA 2</h4>
+                                    <p> Paya resguardada</p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+  
+                                   <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/Parada 1-2 mansa punta/portada.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Mansa-P1.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Mansa PARADA 1</h4>
+                                    <p> Playa angosta</p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                                      <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/Muelle mahilos/portada.png" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Mansa-Muelle-Milos.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Mansa Muelle de Mailhos</h4>
+                                    <p> La mejor para días de viento</p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+						<!--End Work Item -->
+                        <!-- PUNTA DEL ESTE playa mansa -->
+                        <!-- END PUNTA DEL ESTE -->
+
+                          <!-- PUNTA DEL ESTE -->
+
+                     <!-- PUNTA DEL ESTE playa Brava -->
+
+                        <!-- Work Item -->
+
+                       
+						<li class="work-item thumnail-img mix wedding">
+                            
+							<div class="work-image">
+                                <video src="videos/Playa Brava preview.mp4" loop autoplay muted alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                  
+        
+                                 
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+                         <!--End Work Item -->
+
+                                <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-de-los-ingleses.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa De los Ingleses</h4>
+                                    <p>  Pequeña playa entre rocas  </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+                                <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-El-Emir.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa El Emir</h4>
+                                    <p>  Playa para surfistas principiantes </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                        
+                                <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Los-Dedos.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Los Dedos</h4>
+                                    <p>  Amplia playa concurrida </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                                <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/8 brava/primera.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Brava-P5-P6-P7.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Brava Parada 5, 6 y 7</h4>
+                                    <p>  Playas amplias y concurridas </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                         
+                                  <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/8 brava/Portada.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Brava-P8.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Brava Parada 8</h4>
+                                    <p>  Playa concurridas </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                        
+                                     <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/8 brava/segunda.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Brava-P9-P10.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Brava Parada 9 y 10</h4>
+                                    <p>  Playas concurridas </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                        
+                        
+                                     <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/12 brava/portada.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Brava-P11-P12-P13.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Brava Parada 11, 12 y 13</h4>
+                                    <p>  Playas amplias </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                        
+                                 <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/14, 15, 16 brava/portada.png" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Brava-P14-P15-P16.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Brava Parada 14, 15 y 16</h4>
+                                    <p>  Playa Amplia De facil acceso </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                       
+                           
+                                 <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/12 brava/primera.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Brava-P17-P18.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Brava Parada 17 y 18</h4>
+                                    <p>  Playa con grandes dunas </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+                                <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Brava-P19-p20.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Brava Parada 19 y 20</h4>
+                                    <p>  Playa con grandes dunas </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                        
+                                <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Brava-P21.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Brava Parada 21</h4>
+                                    <p>  Playa Amplia de Facil Acceso </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+                               <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/25 brava/portada.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Brava-P25.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Brava Parada 25</h4>
+                                    <p> Playas de grandes dunas </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+                        
+                               <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/30 brava/portada.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Brava-P30.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Brava Parada 30</h4>
+                                    <p> Playa concurrida </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+                          
+                               <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="images/playas/30 brava/primera.jpg" alt="thumbnail">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-Brava-P32.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>Playa Brava Parada 32</h4>
+                                    <p> Playa agreste </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                         
+                        <!-- PUNTA DEL ESTE playa Brava -->
+                        <!-- END PUNTA DEL ESTE -->
+
+
+
+                       <!-- PUNTA DEL ESTE La Barra -->
+                        <!-- PUNTA DEL ESTE -->
+
+          <!-- Work Item -->
+      <li class="work-item thumnail-img mix event">
+            <div class="work-image">
+                <img src="images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+                
+                 <!--Hover link-->
+                 <div class="hover-link">
+                    <a href="Playa-La-Barra.html">
+                        <i class="fa fa-plus"></i>
+                    </a>
+                    
+                 </div>
+                 <!--End link-->
+
+                 <!--Hover Caption-->
+                 <div class="work-caption">
+                    <h4>Playa La Barra</h4>
+                    <p> Playa muy resguardada de agua dulce </p>
+                      
+                </div>
+                 <!--End Caption-->
+
+            </div> 
+        </li> 
+               <!--End Work Item -->
+                  <!-- Work Item -->
+      <li class="work-item thumnail-img mix event">
+        <div class="work-image">
+            <img src="images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+            
+             <!--Hover link-->
+             <div class="hover-link">
+                <a href="Playa-Posta-Del-Cangrejo.html">
+                    <i class="fa fa-plus"></i>
+                </a>
+                
+             </div>
+             <!--End link-->
+
+             <!--Hover Caption-->
+             <div class="work-caption">
+                <h4>Playa Posta Del cangrejo</h4>
+                <p> Playa resguardada entre rocas </p>
+                  
+            </div>
+             <!--End Caption-->
+
+        </div> 
+    </li> 
+           <!--End Work Item -->
+                       <!-- Work Item -->
+      <li class="work-item thumnail-img mix event">
+        <div class="work-image">
+            <img src="images/playas/montoya/portada.JPG" alt="thumbnail">
+            
+             <!--Hover link-->
+             <div class="hover-link">
+                <a href="Playa-Montoya.html">
+                    <i class="fa fa-plus"></i>
+                </a>
+                
+             </div>
+             <!--End link-->
+
+             <!--Hover Caption-->
+             <div class="work-caption">
+                <h4>Playa Montoya</h4>
+                <p> Playa amplia </p>
+                  
+            </div>
+             <!--End Caption-->
+
+        </div> 
+    </li> 
+           <!--End Work Item -->
+
+                        <!-- Work Item -->
+      <li class="work-item thumnail-img mix event">
+        <div class="work-image">
+            <img src="images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+            
+             <!--Hover link-->
+             <div class="hover-link">
+                <a href="Playa-Bikini.html">
+                    <i class="fa fa-plus"></i>
+                </a>
+                
+             </div>
+             <!--End link-->
+
+             <!--Hover Caption-->
+             <div class="work-caption">
+                <h4>Playa Bikini</h4>
+                <p>playa protegida </p>
+                  
+            </div>
+             <!--End Caption-->
+
+        </div> 
+    </li> 
+           <!--End Work Item -->
+                       <!-- Work Item -->
+      <li class="work-item thumnail-img mix event">
+        <div class="work-image">
+            <img src="images/playas/el chorro/portada.png" alt="thumbnail">
+            
+             <!--Hover link-->
+             <div class="hover-link">
+                <a href="Playa-El-Chorro.html">
+                    <i class="fa fa-plus"></i>
+                </a>
+                
+             </div>
+             <!--End link-->
+
+             <!--Hover Caption-->
+             <div class="work-caption">
+                <h4>Playa El Chorro</h4>
+                <p>Playa amplia y agreste</p>
+                  
+            </div>
+             <!--End Caption-->
+
+        </div> 
+    </li> 
+           <!--End Work Item -->
+                       <!-- Work Item -->
+      <li class="work-item thumnail-img mix event">
+        <div class="work-image">
+            <img src="images/playas/Balneareo bsas/portada.png" alt="thumbnail">
+            
+             <!--Hover link-->
+             <div class="hover-link">
+                <a href="Playa-Playa-Buenos-Aires.html">
+                    <i class="fa fa-plus"></i>
+                </a>
+                
+             </div>
+             <!--End link-->
+
+             <!--Hover Caption-->
+             <div class="work-caption">
+                <h4>Playa Buenos Aires</h4>
+                <p>Playas agrestes, poco concurridas</p>
+                  
+            </div>
+             <!--End Caption-->
+
+        </div> 
+    </li> 
+           <!--End Work Item -->
+
+           
+                      <!-- Work Item -->
+      <li class="work-item thumnail-img mix event">
+        <div class="work-image">
+            <img src="images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+            
+             <!--Hover link-->
+             <div class="hover-link">
+                <a href="Playa-Santa-Monica.html">
+                    <i class="fa fa-plus"></i>
+                </a>
+                
+             </div>
+             <!--End link-->
+
+             <!--Hover Caption-->
+             <div class="work-caption">
+                <h4>Playa Santa Monica</h4>
+                <p>Playa extensa, tranquila y agreste</p>
+                  
+            </div>
+             <!--End Caption-->
+
+        </div> 
+    </li> 
+           <!--End Work Item -->
+                 
+                      <!-- Work Item -->
+      <li class="work-item thumnail-img mix event">
+        <div class="work-image">
+            <img src="images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+            
+             <!--Hover link-->
+             <div class="hover-link">
+                <a href="Playa-La-Juanita.html">
+                    <i class="fa fa-plus"></i>
+                </a>
+                
+             </div>
+             <!--End link-->
+
+             <!--Hover Caption-->
+             <div class="work-caption">
+                <h4>Playa La Juanita</h4>
+                <p>Playa extensa</p>
+                  
+            </div>
+             <!--End Caption-->
+
+        </div> 
+    </li> 
+           <!--End Work Item -->
+
+
+                      <!-- Work Item -->
+      <li class="work-item thumnail-img mix event">
+        <div class="work-image">
+            <img src="images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+            
+             <!--Hover link-->
+             <div class="hover-link">
+                <a href="Playa-Mansa-De-Jose-Ignacio.html">
+                    <i class="fa fa-plus"></i>
+                </a>
+                
+             </div>
+             <!--End link-->
+
+             <!--Hover Caption-->
+             <div class="work-caption">
+                <h4>Playa Mansa de Jose Ignacio</h4>
+                <p>Pequeña peninsula</p>
+                  
+            </div>
+             <!--End Caption-->
+
+        </div> 
+    </li> 
+           <!--End Work Item -->
+                       <!-- Work Item -->
+      <li class="work-item thumnail-img mix event">
+        <div class="work-image">
+            <img src="images/playas/Jose Ignacio Brava/portada.jpeg" alt="thumbnail">
+            
+             <!--Hover link-->
+             <div class="hover-link">
+                <a href="Playa-Brava-De-Jose-Ignacio.html">
+                    <i class="fa fa-plus"></i>
+                </a>
+                
+             </div>
+             <!--End link-->
+
+             <!--Hover Caption-->
+             <div class="work-caption">
+                <h4>Playa Brava de Jose Ignacio</h4>
+                <p>Playa agreste, concurrida</p>
+                  
+            </div>
+             <!--End Caption-->
+
+        </div> 
+    </li> 
+           <!--End Work Item -->
+        
+    
+                      <!-- PUNTA DEL ESTE La Barra -->
+                        <!-- END PUNTA DEL ESTE La Barra  -->
+
+					</ul>
+
+		
+        
+                </div>
+		      </section>
+              <!--End portfolio-->
+                  <br><br><br><br><br>
+ 
+
+   
+    
+  <!--Start Team-->
+  
+  <!--End Team-->
+
+
+    <!--Start Skills-->
+  
+  <!--End Skills-->
+
+ 
+  <!--Start Services-->
+   
+               
+  <!--End Services-->
+
+ 
+     <!--Start Why Choose us-->
+  
+  <!--End Why Choose us-->
+
+ 
+    <!--Start video-->
+  <section id="video" class="section parallax">
+        <div class="overlay"></div>
+       <div class="container">
+           <div class="row">
+           
+                 <div class="title-box text-center white">
+                    <h2 class="title">Eventos</h2>
+                 </div>
+             
+             <div class="col-md-6">
+                 <div class="video-caption-main">
+                      <!--Video caption #1-->
+                      <div class="video-caption">
+                          <div class="video-icon">
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                          </div>
+                          <div class="video-caption-info">
+                              <h4> Proximos eventos</h4>
+                              <p>Brief</p>
+                          </div>
+                      </div>
+                      
+                      
+                      
+                 </div>
+             </div>
+            <!-- End Video caption-->
+             
+            <div class="col-md-6">
+                <div class="play-video">
+                  
+                </div>
+            </div> 
+               
+           </div> <!-- /.row-->
+       </div> <!-- /.container-->
+  </section>
+  <!--End video-->
+
+
+   <!-- Start blog-->
+   
+   <!-- End blog-->
+   
+ 
+  <!--Start Testimonial-->  
+ 
+        <!--end Testimonial-->
+  
+ 
+    <!--Start clients-->
+    <section id="clients" class="section">
+           <div class="container">
+               <div class="row">
+               
+            <div class="title-box text-center">
+                <h2 class="title">Nuestros Sponsor</h2>
+             </div>
+                
+                   <div class="clients-carousel">
+                   
+                       <!-- Clients Logo Item-->
+                        <div class="item">
+                            <a href="#">
+                                <figure>
+                                    <img src="images/clients-logo/client1.png" alt="" />
+                                </figure>
+                            </a>
+                        </div>
+                        
+                       <!-- Clients Logo Item-->
+                        <div class="item">
+                            <a href="#">
+                                <figure>
+                                      <img src="images/clients-logo/client2.png" alt="" />
+                                </figure>
+                            </a>
+                        </div>
+                        
+                        <!-- Clients Logo Item-->
+                        <div class="item">
+                            <a href="#">
+                                <figure>
+                                      <img src="images/clients-logo/client3.png" alt="" />
+                                </figure>
+                            </a>
+                        </div>
+                        
+                        <!-- Clients Logo Item-->
+                        <div class="item">
+                            <a href="#">
+                                <figure>
+                                     <img src="images/clients-logo/client4.png" alt="" />
+                                </figure>
+                            </a>
+                        </div>
+                        
+                       <!-- Clients Logo Item-->
+                        <div class="item">
+                            <a href="#">
+                                <figure>
+                                      <img src="images/clients-logo/client2.png" alt="" />
+                                </figure>
+                            </a>
+                        </div>
+                        
+                       <!-- Clients Logo Item-->
+                        <div class="item">
+                            <a href="#">
+                                <figure>
+                                      <img src="images/clients-logo/client5.png" alt="" />
+                                </figure>
+                            </a>
+                        </div>
+                        
+                        <!-- Clients Logo Item-->
+                        <div class="item">
+                            <a href="#">
+                                <figure>
+                                     <img src="images/clients-logo/client4.png" alt="" />
+                                </figure>
+                            </a>
+                        </div>
+                        
+                        <!-- Clients Logo Item-->
+                        <div class="item">
+                            <a href="#">
+                                <figure>
+                                     <img src="images/clients-logo/client1.png" alt="" />
+                                </figure>
+                            </a>
+                        </div>
+		         </div>
+               </div> <!--/.row-->
+         </div> <!--/.container-->
+    </section>
+   <!--End clients-->
+   
+   
+   <!--Start Contact-->
+   <section id="contact" class="section parallax">
+      <div class="overlay"></div>
+       <div class="container">
+           <div class="row">
+           
+                 <div class="title-box text-center white">
+                    <h2 class="title">Contacto</h2>
+                 </div>
+             </div>
+
+               <!--Start contact form-->
+               <div class="col-md-8 col-md-offset-2 contact-form">
+               
+                    <div class="contact-info text-center">
+                  
+                       <p>Info@cleach.com.uy </p>
+                    </div>
+                     
+                     <form  action="https://formspree.io/f/xyyqbbaa" method="post">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input class="form-control" id="name"name="name" placeholder="Nombre" type="text">
+                            </div>
+                            <div class="col-md-4">
+                                <input class="form-control" id="email"name="email" placeholder="Email" type="email">
+                            </div>
+                            <div class="col-md-4">
+                                <input class="form-control" id="subject"name="subject" placeholder="Asunto" type="text">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea class="form-control" id="message" name="message"rows="7" placeholder="Mensaje"></textarea>
+                            </div>
+                            <div class="col-md-12 text-right">
+                                <button type="submit" class="btn btn-green">ENVIAR MENSAJE</button>
+                            </div>
+                        </div>
+                    </form>
+               </div>
+              <!--End contact form-->
+              
+       </div> <!-- /.container-->
+   </section>
+   <!--End Contact-->
+   
+   
+   <!--Start Footer-->
+   <footer>
+       <div class="container">
+           <div class="row">
+               <!--Start copyright-->
+               <div class="col-md-6 col-sm-6 col-xs-6">
+                   <div class="copyright"><p>Copyright © 2023 Todos los derechos reservados por Cleach
+                 </p></div>
+                 <div class="copyright"><p>Desarrollado por: <a href="Softech.uy">Softech</a>
+                 </p></div>
+               </div>
+               <!--End copyright-->
+               
+               <!--start social icons-->
+               <div class="col-md-6 col-sm-6 col-xs-6">
+                   <div class="social-icons">
+                       <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                       </ul>
+                    </div>
+               </div>
+               <!--End social icons-->
+           </div> <!-- /.row-->
+       </div> <!-- /.container-->
+   </footer>
+   <!--End Footer-->
+
+   <a href="#" class="scrollup"> <i class="fa fa-chevron-up"> </i> </a>
+
+    <!--Plugins-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        
+        AOS.init({
+          duration: 1200,
+        });
+      </script>
+         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+         crossorigin=""></script>
+
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/jquery.easypiechart.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js\buscadorDeTexto.js"></script>
+    <script type="text/javascript" src="js/funciones.mapa.js"></script>
+    
+ </body>
+</html>
+
