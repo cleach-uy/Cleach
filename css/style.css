@@ -292,7 +292,7 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
    }
    
    .overlay {
-	   background:rgba(0, 0, 0, 0.4) url("../images/pattern.png") repeat;
+	   background:rgba(0, 0, 0, 0.4) url("https://storage.googleapis.com/chileback/cleach/images/pattern.png") repeat;
 	   position: absolute;
 	   display: block;
 	   width: 100%;
@@ -1370,14 +1370,14 @@ html[xmlns] .slides {
 
 #history {
 	margin-top: 50px;
-	background:url(..//images/mapa1.PNG);
+	background:url(https://storage.googleapis.com/chileback/cleach/images/mapa1.PNG);
 	height: 800px;
 }
 
 ul.timeline {
 	margin: 40px auto 0;
 	width: 100%;
-	background: url(../images/timeline-bg.jpg) center center repeat-y;
+	background: url(https://storage.googleapis.com/chileback/cleach/images/timeline-bg.jpg) center center repeat-y;
 	height: auto;
 	position: relative;
 	padding: 0 0 80px;
@@ -1671,7 +1671,7 @@ ul.timeline {
 
 #cta {
 	padding-top: 50px;
-	background:url(https://storage.googleapis.com/chileback/cleach//images/playas/polonio.jpg) no-repeat;
+	background:url(https://storage.googleapis.com/chileback/cleach/images/playas/polonio.jpg) no-repeat;
 	padding:130px 0px 130px;
 }
 
@@ -1818,7 +1818,7 @@ ul.timeline {
 #skills {
 	text-align:center;
 	padding:100px 0px 0px;
-	background:url(../images/parallax/skills.jpg) no-repeat;
+	background:url(https://storage.googleapis.com/chileback/cleach/images/parallax/skills.jpg) no-repeat;
 }
 
 .pie-chart-main {
@@ -2007,7 +2007,7 @@ ul.timeline {
 
 
 #video {
-	background:url(https://storage.googleapis.com/chileback/cleach//images/playas/playa12.jpg) no-repeat;
+	background:url(https://storage.googleapis.com/chileback/cleach/images/playas/playa12.jpg) no-repeat;
 }
 
 .video-caption-main {
@@ -2118,7 +2118,7 @@ ul.timeline {
 
 
 #testimonials {
-	background:url(../images/parallax/testimonials.jpg) no-repeat;
+	background:url(https://storage.googleapis.com/chileback/cleach/images/parallax/testimonials.jpg) no-repeat;
 }
 
 #testimonials {
@@ -2321,7 +2321,7 @@ ul.timeline {
 /*-----------------------------------------------------------------*/
 
 #page-header {
-	background:url('../images/slider/fondoplaya.jpg');
+	background:url('https://storage.googleapis.com/chileback/cleach/images/slider/fondoplaya.jpg');
 	padding: 130px 0px 80px;
 	text-align: center;
 }
