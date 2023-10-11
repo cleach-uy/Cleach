@@ -6,14 +6,14 @@ $(document).ready(function() {
 
         $.ajax({
             type: 'POST',
-            url: 'https://formspree.io/f/xvojdgqa',
+            url: 'https://formspree.io/f/xyyqbbaa',
             data: formData,
-            dataType: 'json',  // Asegúrate de especificar el tipo de dato que esperas de la respuesta
+            dataType: 'json',
             success: function(response) {
-                alert('¡El formulario se ha enviado con éxito!');
+                alert("¡El formulario se ha enviado con éxito!");
             },
             error: function(error) {
-                alert('Hubo un error al enviar el formulario. Por favor, inténtalo de nuevo más tarde.');
+                alert("Hubo un error al enviar el formulario. Por favor, inténtalo de nuevo");
             }
         });
     });
