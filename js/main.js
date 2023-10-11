@@ -13,7 +13,7 @@ $(document).ready(function() {
                 alert("¡El formulario se ha enviado con éxito!");
             },
             error: function(error) {
-                alert("Hubo un error al enviar el formulario. Por favor, inténtalo de nuevo");
+                alert("Error al enviar el formulario");
             }
         });
     });
