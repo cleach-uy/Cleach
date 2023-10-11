@@ -158,7 +158,7 @@ async function updatePopup(marker, lat, lon, playa, buttonUrl) {
 
 // icono cleach
 var cleachIcon = L.icon({
-  iconUrl: 'images/iconos/mano cleach azul.svg',
+  iconUrl: 'https://storage.googleapis.com/chileback/cleach/images/iconos/mano cleach azul.svg',
   
 
   iconSize:     [50, 110], // size of the icon

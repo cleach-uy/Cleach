@@ -2483,7 +2483,7 @@ ul.timeline {
 }
 
 #related-project {
-	background:url('../images/pattern.png') repeat;
+	background:url('https://storage.googleapis.com/chileback/cleach/images/pattern.png') repeat;
 	padding:100px 0 80px;
 	position:relative;
 }
