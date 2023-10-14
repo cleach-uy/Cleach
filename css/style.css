@@ -2435,11 +2435,12 @@ ul.timeline {
 
 #single-work-slider {
 	margin-bottom: 30px;
+	position: relative;
+	overflow: hidden;
 }
 #single-work-slider video{
 	height: 100%;
-	width: 135%;
-	
+	width: 132.5%;
 
 
 }
