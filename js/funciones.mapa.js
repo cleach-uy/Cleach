@@ -1,8 +1,9 @@
 //	MAPA
 
-var map = L.map('map').setView([-34.96226728068345, -54.94436108442241], 13);
+var map = L.map('map').setView([-34.96226728068345, -54.94436108442241], 14);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-maxZoom: 19,
+maxZoom: 14,
+minZoom:14,
 attribution: '© Cleach'
 }).addTo(map);
 
@@ -165,6 +166,7 @@ var cleachIcon = L.icon({
   iconAnchor:   [20, 60], // point of the icon which will correspond to marker's location
   popupAnchor:  [0, -20] // point from which the popup should open relative to the iconAnchor
 });
+
 
 
 playas.forEach((playa) => {
