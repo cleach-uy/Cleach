@@ -2233,7 +2233,7 @@ ul.timeline {
 
 #featured-works .item .fworks-image img {
 	width:100%;
-	height: auto;
+	height: 300px;
 }
 #featured-works .item .featured-caption {
 	position: absolute;

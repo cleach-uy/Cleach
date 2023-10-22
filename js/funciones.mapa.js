@@ -48,7 +48,6 @@ async function getMarineData(lat, lon) {
 
   const response = await fetch(url2);
   const data = await response.json();
-
   return {
     wave_height: data.hourly.wave_height[0],
   };
