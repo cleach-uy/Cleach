@@ -2,8 +2,6 @@
 
 var map = L.map('map').setView([-34.96226728068345, -54.94436108442241], 14);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-maxZoom: 14,
-minZoom:14,
 attribution: '© Cleach'
 }).addTo(map);
 

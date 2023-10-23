@@ -17,9 +17,6 @@ html, body {
 }
 
 
-
-
-
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	margin: 0px 0px 10px;
@@ -1669,7 +1666,7 @@ ul.timeline {
 
 
 
-#cta {
+#mapa {
 	padding-top: 50px;
 	background:url(https://storage.googleapis.com/chileback/cleach/images/playas/polonio.jpg) no-repeat;
 	padding:130px 0px 130px;
@@ -2006,7 +2003,7 @@ ul.timeline {
 /*-----------------------------------------------------------------*/
 
 
-#video {
+#eventos {
 	background:url(https://storage.googleapis.com/chileback/cleach/images/playas/playa12.jpg) no-repeat;
 }
 
@@ -2480,7 +2477,7 @@ ul.timeline {
 #single-work-slider .item img {
 	display: block;
 	width: 100%;
-	height: auto;
+	height: 490px;
 }
 
 #related-project {
@@ -2898,7 +2895,7 @@ li.comment ol.comment-sub {
 /*  Contact
 /*-----------------------------------------------------------------*/
 
-#contact {
+#contacto {
 	background:url(https://storage.googleapis.com/chileback/cleach/images/playas/playa5.jpg) no-repeat;
 }
 
