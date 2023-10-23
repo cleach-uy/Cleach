@@ -1563,6 +1563,7 @@ ul.timeline {
 	clear: both;
 	margin-top: 60px;
 	display: inline-block;
+	padding-right: 8px;
 }
 
 .work-grid {
