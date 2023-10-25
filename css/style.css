@@ -2477,7 +2477,7 @@ ul.timeline {
 #single-work-slider .item img {
 	display: block;
 	width: 100%;
-	height: 490px;
+	/* height: 490px; */
 }
 
 #related-project {
