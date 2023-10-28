@@ -2482,7 +2482,7 @@ ul.timeline {
 /* SM */
 @media (min-width: 640px) {
     #single-work-slider .item img {
-        height: 452px; 
+        height: 458px; 
     }
 }
 
@@ -2496,14 +2496,14 @@ ul.timeline {
 /* LG*/
 @media (min-width: 1024px) {
     #single-work-slider .item img {
-        height: 400px; 
+        height: 402px; 
     }
 }
 
 /* XL */
 @media (min-width: 1280px) {
     #single-work-slider .item img {
-        height: 487px; 
+        height: 489px; 
     }
 }
 
