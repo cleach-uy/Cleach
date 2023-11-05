@@ -1070,10 +1070,9 @@ html[xmlns] .slides {
 /*-----------------------------------------------------------------*/
 
 #facts {
-	background:url(https://storage.googleapis.com/chileback/cleach/images/playas/polonio.jpg) no-repeat;
+	background-image: url(https://storage.googleapis.com/chileback/cleach/images/playas/polonio.jpg);
+	/* background:url(https://storage.googleapis.com/chileback/cleach/images/playas/polonio.jpg) no-repeat; */
 	padding: 150px 0px 100px;
-	-webkit-background-size: cover;
-    background-size: cover;
 }
 
 .facts-box {
@@ -1671,10 +1670,8 @@ ul.timeline {
 
 #mapa {
 	padding-top: 50px;
-	background:url(https://storage.googleapis.com/chileback/cleach/images/playas/polonio.jpg) no-repeat;
+	background-image: url(https://storage.googleapis.com/chileback/cleach/images/playas/polonio.jpg);
 	padding:130px 0px 130px;
-	-webkit-background-size: cover;
-    background-size: cover;
 }
 
 #map h2 {
@@ -2009,9 +2006,7 @@ ul.timeline {
 
 
 #eventos {
-	background:url(https://storage.googleapis.com/chileback/cleach/images/playas/playa12.jpg) no-repeat;
-	-webkit-background-size: cover;
-    background-size: cover;
+	background-image: url(https://storage.googleapis.com/chileback/cleach/images/playas/playa12.jpg);
 }
 
 .video-caption-main {
@@ -2325,7 +2320,7 @@ ul.timeline {
 /*-----------------------------------------------------------------*/
 
 #page-header {
-	background:url('https://storage.googleapis.com/chileback/cleach/images/slider/fondoplaya.jpg');
+	background-image: url(https://storage.googleapis.com/chileback/cleach/images/slider/fondoplaya.jpg);
 	padding: 130px 0px 80px;
 	text-align: center;
 	-webkit-background-size: cover;
@@ -2940,9 +2935,7 @@ li.comment ol.comment-sub {
 /*-----------------------------------------------------------------*/
 
 #contacto {
-	background:url(https://storage.googleapis.com/chileback/cleach/images/playas/playa5.jpg) no-repeat;
-	-webkit-background-size: cover;
-    background-size: cover;
+	background-image: url(https://storage.googleapis.com/chileback/cleach/images/playas/playa5.jpg);
 }
 
 .contact-form {
