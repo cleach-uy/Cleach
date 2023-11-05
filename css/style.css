@@ -1071,9 +1071,19 @@ html[xmlns] .slides {
 
 #facts {
 	background-image: url(https://storage.googleapis.com/chileback/cleach/images/playas/polonio.jpg);
-	/* background:url(https://storage.googleapis.com/chileback/cleach/images/playas/polonio.jpg) no-repeat; */
 	padding: 150px 0px 100px;
 }
+
+.backdrop {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+  }
 
 .facts-box {
 	text-align:center;
