@@ -16,8 +16,28 @@ html, body {
 	color: #444;
 	position: relative;
 }
+#wind{
+	font-size: 13.5px;
+
+}
+#wind_deg{
+
+	font-size: 13.5px;
+}
+#waveHeight{
+
+	font-size: 13.5px;
+}
+#temp{
+
+	font-size: 13.5px;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+color: #ffffff;
 
 
+}
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	margin: 0px 0px 10px;
@@ -303,16 +323,20 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	   position:relative;
    }
    
-   .parallax .container {
-	   position:relative;
-   }
-   
-   .parallax {
-	   background-attachment: fixed !important;
-	   background-position: center center !important;
-	   background-repeat: no-repeat !important;
-	   background-size: cover !important;
-   }
+ .parallax {
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+/* Desactivar el efecto parallax en dispositivos móviles */
+@media (max-width: 768px) {
+    .parallax {
+        background-attachment: scroll !important;
+    }
+}
 
 /*-----------------------------------------------------------------*/
 /* Buttons
@@ -1055,7 +1079,7 @@ html[xmlns] .slides {
 	height: 60px;
 	line-height: 41px;
 	font-size: 45px;
-	color:#7EC13F;
+	color:#105c79 ;
 }
 
 .features-icon-box .features-info {
@@ -1070,20 +1094,9 @@ html[xmlns] .slides {
 /*-----------------------------------------------------------------*/
 
 #facts {
-	background-image: url(https://storage.googleapis.com/chileback/cleach/images/playas/polonio.jpg);
+	background:url(https://storage.googleapis.com/chileback/cleach/images/playas/polonio.jpg) no-repeat;
 	padding: 150px 0px 100px;
 }
-
-.backdrop {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-size: cover;
-	height: 100%;
-	width: 100%;
-  }
 
 .facts-box {
 	text-align:center;
@@ -1152,8 +1165,8 @@ html[xmlns] .slides {
 }
 
 .content-tab-1 > .nav > li.active {
-    border: 2px solid #7EC13F;
-    background: #7EC13F;
+    border: 2px solid #105c79 ;
+    background: #105c79 ;
 }
 
 .tab-content-main {
@@ -1680,7 +1693,7 @@ ul.timeline {
 
 #mapa {
 	padding-top: 50px;
-	background-image: url(https://storage.googleapis.com/chileback/cleach/images/playas/polonio.jpg);
+	background:url(https://storage.googleapis.com/chileback/cleach/images/playas/polonio.jpg) no-repeat;
 	padding:130px 0px 130px;
 }
 
@@ -2016,7 +2029,7 @@ ul.timeline {
 
 
 #eventos {
-	background-image: url(https://storage.googleapis.com/chileback/cleach/images/playas/playa12.jpg);
+	background:url(https://storage.googleapis.com/chileback/cleach/images/playas/playa12.jpg) no-repeat;
 }
 
 .video-caption-main {
@@ -2321,7 +2334,7 @@ ul.timeline {
 }
 
 #featured-works .owl-prev:hover, #featured-works .owl-next:hover {
-	background:#7EC13F;
+	background:#105c79;
 	opacity:1;
 }
 
@@ -2330,11 +2343,9 @@ ul.timeline {
 /*-----------------------------------------------------------------*/
 
 #page-header {
-	background-image: url(https://storage.googleapis.com/chileback/cleach/images/slider/fondoplaya.jpg);
+	background:url('https://storage.googleapis.com/chileback/cleach/images/slider/fondoplaya.jpg');
 	padding: 130px 0px 80px;
 	text-align: center;
-	-webkit-background-size: cover;
-    background-size: cover;
 }
 
 #page-header:after {
@@ -2382,7 +2393,7 @@ ul.timeline {
 .breadcrumb ul li a {
 	color: #105c79;
 	font-weight: 600;
-	font-size: 14px;
+	font-size: 20px;
 }
 
 .breadcrumb ul li a:hover {
@@ -2428,7 +2439,7 @@ ul.timeline {
 .work-detail-list li {
 	padding: 0px 0px 7px;
 	line-height: 22px;
-	font-size: 14px;
+	font-size: 13px;
 	color: #105c79;
 	
 	border-bottom: 1px dashed #ccc;
@@ -2439,7 +2450,7 @@ ul.timeline {
 	padding-right: 15px;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 600;
 	color: #105c79;
 }
@@ -2455,6 +2466,7 @@ ul.timeline {
 
 
 }
+
 
 #single-work-slider .owl-controls {
 	margin-top: 30px;
@@ -2491,15 +2503,46 @@ ul.timeline {
 #single-work-slider .item img {
     display: block;
     width: 100%;
+	
 }
 
+/* SE */
+@media (min-width: 375px) {
+    #single-work-slider .item img {
+        height: 259px; 
+    }
+}
 /* SM */
 @media (min-width: 640px) {
     #single-work-slider .item img {
         height: 458px; 
     }
 }
+/* XR */
+@media (min-width: 414px) {
+    #single-work-slider .item img {
+        height: 288px; 
+    }
+}
+/* 12PRO */
+@media (min-width: 390px) {
+    #single-work-slider .item img {
+        height: 270px; 
+    }
+}
+/* 12PROMAX */
+@media (min-width: 430px) {
+    #single-work-slider .item img {
+        height: 300px; 
+    }
+}
 
+/* GALAXYA51*/
+@media (min-width: 412px) {
+    #single-work-slider .item img {
+        height: 287px; 
+    }
+}
 /* MD*/
 @media (min-width: 768px) {
     #single-work-slider .item img {
@@ -2832,7 +2875,7 @@ li.comment ol.comment-sub {
 }
 
 .post-categories a:hover {
-	color:#7EC13F;
+	color:#105c79 ;
 }
 
 .sidebar-widget {
@@ -2945,7 +2988,7 @@ li.comment ol.comment-sub {
 /*-----------------------------------------------------------------*/
 
 #contacto {
-	background-image: url(https://storage.googleapis.com/chileback/cleach/images/playas/playa5.jpg);
+	background:url(https://storage.googleapis.com/chileback/cleach/images/playas/playa5.jpg) no-repeat;
 }
 
 .contact-form {
@@ -3123,6 +3166,7 @@ footer {
 
 .leaflet-popup-content-wrapper {
 	background-color: #1D6480;
+	
 }
 
 .popup-content-insert {
@@ -3130,5 +3174,5 @@ footer {
 }
 
 .leaflet-zoom-animated {
-	width: 350px;
+	width: 250px;
 }

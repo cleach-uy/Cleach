@@ -143,11 +143,11 @@ async function updatePopup(marker, lat, lon, playa, buttonUrl) {
  
   let popupContent = `
   <div class="popup-content-insert">
-    <p style="color: #ffffff; font-size:15px; font-weight:bold;font-size:25px;font-family: 'Acumin Pro', sans-serif;">${playa.nombre}</p><hr style="height:30px;border-width: 5px;">
-    <i><img src="https://storage.googleapis.com/chileback/cleach/images/iconos/popup/vientos.svg" width="20px" style="float:left;"><p style="color: #ffffff;font-family: 'Acumin Pro 400', sans-serif;font-size:16px; font-style: normal;">&nbsp;Viento: <strong>${windText} (${weatherData.wind} KM/H)</strong></p></i>
-    <i><img src="https://storage.googleapis.com/chileback/cleach/images/iconos/popup/temp.svg" width="20px" height="20px" style="float:left;"><p style="color: #ffffff;font-family: 'Acumin Pro', sans-serif;font-size:16px; font-style: normal;">&nbsp;Temp: <strong>${weatherData.temp}°C</strong></p>
-    <i><img src="https://storage.googleapis.com/chileback/cleach/images/iconos/popup/direcc.svg" width="20px" style="float:left;"><p style="color: #ffffff;font-family: 'Acumin Pro', sans-serif;font-size:16px; font-style: normal;">&nbsp;Direccion: <strong>${weatherData.wind_deg}</strong></p>
-    <i><img src="https://storage.googleapis.com/chileback/cleach/images/iconos/popup/olas.svg" width="20px" style="float:left;"><p style="color: #ffffff;font-family: 'Acumin Pro', sans-serif;font-size:16px; font-style: normal;">&nbsp;Olas: <strong>${marineData.wave_height} Mts</strong></p>
+    <p style="color: #ffffff; font-size:15px; font-weight:bold;font-size:20px;font-family: 'Acumin Pro', sans-serif;">${playa.nombre}</p><hr style="height:25px;border-width: 5px;">
+    <i><img src="https://storage.googleapis.com/chileback/cleach/images/iconos/popup/vientos.svg" width="20px" style="float:left;"><p style="color: #ffffff;font-family: 'Acumin Pro 400', sans-serif;font-size:12px; font-style: normal;">&nbsp;Viento: <strong>${windText} (${weatherData.wind} KM/H)</strong></p></i>
+    <i><img src="https://storage.googleapis.com/chileback/cleach/images/iconos/popup/temp.svg" width="20px" height="20px" style="float:left;"><p style="color: #ffffff;font-family: 'Acumin Pro', sans-serif;font-size:12px; font-style: normal;">&nbsp;Temp: <strong>${weatherData.temp}°C</strong></p>
+    <i><img src="https://storage.googleapis.com/chileback/cleach/images/iconos/popup/direcc.svg" width="20px" style="float:left;"><p style="color: #ffffff;font-family: 'Acumin Pro', sans-serif;font-size:12px; font-style: normal;">&nbsp;Direccion: <strong>${weatherData.wind_deg}</strong></p>
+    <i><img src="https://storage.googleapis.com/chileback/cleach/images/iconos/popup/olas.svg" width="20px" style="float:left;"><p style="color: #ffffff;font-family: 'Acumin Pro', sans-serif;font-size:12px; font-style: normal;">&nbsp;Olas: <strong>${marineData.wave_height} Mts</strong></p>
     <button onclick="window.location.href='${buttonUrl}'" class="btn-green" id="">Saber mas</button>
   </div>
   `;
