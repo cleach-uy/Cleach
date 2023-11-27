@@ -3176,3 +3176,49 @@ footer {
 .leaflet-zoom-animated {
 	width: 250px;
 }
+
+/* EVENT LIST START */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(248, 249, 250, 0.6); /* Ajusta el último valor (0.9) para cambiar la transparencia */
+    margin: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    transition: transform 0.3s;
+	height: 200px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    text-align: center;        
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+	font-weight: bold;
+}
+
+.card-text {
+    color: #2c2b2b; 
+    margin-bottom: 0.8rem; 
+}
+
+.btn-primary {
+    background-color: #105C79;
+    border-color: #105C79;
+	color: #f2f2f2
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3;
+}
+
+/* EVENT LIST END */
