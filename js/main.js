@@ -70,3 +70,25 @@ let video = document.getElementById("player");
         video.play();
         console.log("Reproduciendo..")
     };
+
+    document.addEventListener("DOMContentLoaded", function() {
+        var observer = new IntersectionObserver(function(entries, observer) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    cargarImagenesPerezosamente(entry.target);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+    
+        var seccion = document.querySelector('.section');
+    
+        observer.observe(seccion);
+    
+        function cargarImagenesPerezosamente(seccion) {
+            var imagenes = seccion.querySelectorAll('img[loading="lazy"]');
+            imagenes.forEach(function(imagen) {
+                imagen.src = imagen.dataset.src;
+            });
+        }
+    });
