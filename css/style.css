@@ -2343,7 +2343,7 @@ ul.timeline {
 /*-----------------------------------------------------------------*/
 
 #page-header {
-	background:url('https://storage.googleapis.com/chileback/cleach/images/slider/fondoplaya.jpg');
+	background:url('https://storage.googleapis.com/chileback/cleach/images/fondo%20de%20seccion%20playas/fondo%20de%20seccion3.jpg');
 	padding: 130px 0px 80px;
 	text-align: center;
 }
@@ -2357,7 +2357,7 @@ ul.timeline {
 
 #page-header h1 {
 	margin-bottom: 0px;
-	color: #105c79;
+	color: #ffffff;
 	font-weight: 600;
 }
 
@@ -2380,7 +2380,7 @@ ul.timeline {
  .breadcrumb ul li::after {
  content: "\f101";
  font-family: 'fontawesome';
- color: #105c79;
+ color: #ffffff;
  line-height: 21px;
  vertical-align: middle;
  padding-left: 10px;
@@ -2391,7 +2391,7 @@ ul.timeline {
 }
 
 .breadcrumb ul li a {
-	color: #105c79;
+	color: #ffffff;
 	font-weight: 600;
 	font-size: 20px;
 }
@@ -2401,7 +2401,7 @@ ul.timeline {
 }
 
 .breadcrumb ul li.current a {
-	color: #105c79;
+	color: #ffffff;
 }
 
 .breadcrumb ul li.current a:hover {
@@ -3171,10 +3171,28 @@ footer {
 
 .popup-content-insert {
 	background-color:#1D6480;
+	
 }
 
 .leaflet-zoom-animated {
-	width: 250px;
+	width: 350px;
+}
+
+.btn-pop {
+	background:#105c79 ;
+	border-color: #105c79 ;
+	color:#FFF;
+	height: 40px;
+	width: 120px;
+	font-size: 14px;
+}
+
+.btn-pop:hover, .btn-pop:focus {
+	color: #105c79 ;
+	background:#ffffff;
+	border-color:#000000;
+	height: 40px;
+	width: 120px;
 }
 
 /* EVENT LIST START */

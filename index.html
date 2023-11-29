@@ -2,16 +2,20 @@
 <html lang="es" class="no-js">
   <head>
     <meta charset="utf-8">
-	<title>Cleach the Beach</title>
+	<title>Click your Beach</title>
     <meta name="author" content="Pablo Borda">
     <meta name="keywords" content="Playas, Punta del este, Maldonado, Rocha, Canelones, Arena, Punta, Verano, Eventos">
     <meta name="description" content="Estamos enfocados en la informacion de playas del Uruguay">
     <meta name="robots" content="index"/>	
-    <meta name="copyright" content="softech" />		
+    <meta name="copyright" content="softech" />	
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">	
 	<!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
      <!--styles -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="crossorigin=""/>
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="crossorigin=""/>
     <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
@@ -25,6 +29,22 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="css/style.css" type="text/css"  rel="stylesheet"/>
+  </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T1ZFPX2NW8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-T1ZFPX2NW8');
+</script>
+   <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    
 	<body  data-spy="scroll" data-target="#main-menu">
 
   <!--Start Page loader -->
@@ -61,7 +81,7 @@
                                     <li> <a href="#mapa">Mapa </a> </li>
                                     <li> <a href="#playas">Playas</a> </li>
                                     <li> <a href="#eventos">Eventos</a> </li>
-                                    <li> <a href="#sponsors">sponsors</a> </li>
+                                   <!-- <li> <a href="#sponsors">sponsors</a> </li>-->
                                     <li> <a href="#contacto">Contacto</a> </li>		
 								</ul>
 							</div><!-- end main-menu -->
@@ -74,16 +94,41 @@
       
         <!-- Start Slider  -->
         <section id="home" class="home">
-           <div class="flexslider">
-                <video id="player"playsinline muted loop>
-                    <source src="https://storage.googleapis.com/chileback/cleach/videos/newVideoBanner.mp4" type="video/mp4" />
-                </video>
-                 <!-- <video src="https://storage.googleapis.com/chileback/cleach/videos/videobannerlogo.mp4" autoplay loop muted></video>  -->
-                 <!-- <div class="player plyr__video-embed" id="videoIframe">
-                    <iframe src="https://player.vimeo.com/video/888535325?autoplay=1&muted=1&loop=true&byline=false&portrait=false&title=false&speed=true&transparent=0&gesture=media" allowautoplay allowfullscreen allow="autoplay; fullscreen"></iframe>
-                </div> -->
+            <div class="">
+                 <video id="player"playsinline muted loop>
+                     <source src="https://storage.googleapis.com/chileback/cleach/videos/newVideoBanner.mp4" type="video/mp4" />
+                 </video>
+            </div>
+         </section>
+                    <!-- 
+                    <li class="secondary">
+                        <div class="slider-text-wrapper"> 
+                            <div class="container">                       
+                                <div class="big">La informacion que necesitas, </div>          
+                                <div class="big">en la palma de tu mano</div>
+                                
+                            </div>
+                         </div>
+                        <img src="images/slider/imagen2.PNG" alt="">
+                    </li>
+                    
+                    <li class="third">
+                        <div class="slider-text-wrapper"> 
+                            <div class="container">                              
+                                <div class="big">La informacion que necesitas, </div>          
+                                <div class="big">en la palma de tu mano</div>
+                                
+                             </div>
+                        </div>
+                        <img src="images/slider/imagen2.PNG" alt="">
+                    </li>
+                
+                </ul>
             </div>
         </section>
+    -->
+         <!--    End Slider   -->
+ <!--Start BUSCADOR-->
  <section id="facts" class="section parallax">
     <div class="overlay"></div>
    <div class="container">
@@ -103,11 +148,11 @@
                             <li><a href="Playa-Bella-Vista.html">Bella vista</a></li>
                             <li><a href="Playa-Bikini.html">Bikini</a></li>
                             <li><a href="Playa-Brava-De-Jose-Ignacio.html">Brava de Jose Ignacio</a></li>
-                            <li><a href="Playa-Brava-P5-P6-P7.html">Brava Parada 5,6,7</a></li>
+                            <li><a href="Playa-Brava-P5-P6-P7.html">Brava Parada 5 a 7</a></li>
                             <li><a href="Playa-Brava-P8.html">Brava parada 8</a></li>
                             <li><a href="Playa-Brava-P9-P10.html">Brava parada 9 y 10</a></li>
-                            <li><a href="Playa-Brava-P11-P12-P13.html">Brava parada 11, 12 y 13</a></li>
-                            <li><a href="Playa-Brava-P14-P15-P16.html">Brava parada 14, 15 y 16</a></li>
+                            <li><a href="Playa-Brava-P11-P12-P13.html">Brava parada 11 a 13</a></li>
+                            <li><a href="Playa-Brava-P14-P15-P16.html">Brava parada 14 a 16</a></li>
                             <li><a href="Playa-Brava-P17-P18.html">Brava parada 17 y 18</a></li>
                             <li><a href="Playa-Brava-P19-p20.html">Brava parada 19 y 20</a></li>
                             <li><a href="Playa-Brava-P21.html">Brava parada 21</a></li>
@@ -115,16 +160,17 @@
                             <li><a href="Playa-Brava-P30.html">Brava parada 30</a></li>
                             <li><a href="Playa-Brava-P32.html">Brava parada 32</a></li>
                             <li><a href="Playa-Chihuahua.html">Chihuahua</a></li>
-                            <li><a href="Playa-de-los-ingleses.html">Playa De los ingleses</a></li>
+                            <li><a href="Playa-de-los-ingleses.html">Playa de los Ingleses</a></li>
                             <li><a href="Playa-El-Chorro.html">El chorro</a></li>
                             <li><a href="Playa-El-Emir.html">El Emir</a></li>
-                            <li><a href="Playa-grande.html">Playa grande</a></li>
+                            <li><a href="Playa-Grande.html">Playa grande</a></li>
                             <li><a href="Playa-Hermosa.html">Playa hermosa</a></li>
-                            <li><a href="Playa-La-Barra.html">La barra</a></li>
+                            <li><a href="Playa-La-Barra.html">La Barra - Desembocadura</a></li>
                             <li><a href="Playa-La-Juanita.html">La Juanita</a></li>
                             <li><a href="Playa-Las-Flores.html">Las Flores</a></li>
-                            <li><a href="Playa-Las-Grutas.html">La Grutas</a></li>
+                            <li><a href="Playa-Las-Grutas.html">Las Grutas</a></li>
                             <li><a href="Playa-Los-Dedos.html">Los Dedos</a></li>
+                            <li><a href="Playa-la olla.html">La olla</a></li>
                             <li><a href="Playa-Mansa-De-Jose-Ignacio.html">Mansa de Jose Ignacio</a></li>
                             <li><a href="Playa-Mansa-Muelle-Milos.html">Muelle Mailhos</a></li>
                             <li><a href="Playa-Mansa-P1.html">Mansa parada 1</a></li>
@@ -134,13 +180,13 @@
                             <li><a href="Playa-Mansa-P7-p6.html">Mansa parada 6 y 7</a></li>
                             <li><a href="Playa-Mansa-P9-p8.html">Mansa parada 8 y 9</a></li>
                             <li><a href="Playa-Mansa-P11-P10.html">Mansa parada 10 y 11</a></li>
-                            <li><a href="Playa-Mansa-P16-p12.html">Mansa parada 12, 13, 14, 15 y 16</a></li>
-                            <li><a href="Playa-Mansa-P24-p19.html">Mansa parada 19, 20, 21, 22 y 23</a></li>
-                            <li><a href="Playa-Montoya.html">Playa Montoya</a></li>
+                            <li><a href="Playa-Mansa-P16-p12.html">Mansa parada 12 a 18</a></li>
+                            <li><a href="Playa-Mansa-P24-p19.html">Mansa parada 19 a 23</a></li>
+                            <li><a href="Playa-Montoya.html">Montoya</a></li>
                             <li><a href="Playa-Ocean-Park.html">Ocean Park</a></li>
                             <li><a href="Playa-Pinares-P39-P27.html">Pinares parada 27 a 39</a></li>
                             <li><a href="Playa-Piriapolis.html">Piriapolis</a></li>
-                            <li><a href="Playa-Playa-Buenos-Aires.html">Playa Balneario Buenos Aires</a></li>
+                            <li><a href="Playa-Playa-Buenos-Aires.html">Balneario Buenos Aires</a></li>
                             <li><a href="Playa-Posta-Del-Cangrejo.html">Posta del cangrejo</a></li>
                             <li><a href="Playa-Punta-Colorada.html">Punta colorada</a></li>
                             <li><a href="Playa-Puntas-del-chileno.html">Puntas del chileno</a></li>
@@ -195,7 +241,7 @@
                         map
                         </i></span>
                    
-                    <h3>3</h3>
+                    <h3>1</h3>
                     <span>Departamentos</span>
                 </div>
                 <!-- End Item-->
@@ -204,7 +250,7 @@
                 <div class="col-md-3 col-sm-6 facts-box margin-bottom-30">
                  <span><i class="material-symbols-outlined">
                     beach_access</i></span>
-                    <h3>48</h3>
+                    <h3>52</h3>
                     <span>Playas</span>
                 </div>
                 <!-- End Item-->
@@ -214,7 +260,7 @@
                  <span><i class="material-symbols-outlined">
                     photo_camera
                     </i></span>
-                    <h3>95</h3>
+                    <h3>97</h3>
                     <span>Bajadas</span>
                 </div>
                 <!-- End Item-->
@@ -286,13 +332,16 @@
 					</div>
 				<div class="work-main">
 					<!-- Work Grid -->
+					   <div class="title-box text-center">
+                        <h2 class="title" style="font-size: 15px;">Clickea las playas para mas info!</h2>
+                     </div>
 					<ul class="work-grid">
 
 						   <!-- MALDONADO -->
 						<!-- Work Item -->
 						<li class="work-item thumnail-img mix fashion">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/solis/Portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/fotos%20solis/quintasolis.jpg" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -305,7 +354,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Solis</h4>
+                                    <h4>Solis</h4>
                                     <p>  Playa agreste y tranquila  </p>
                                       
                                 </div>
@@ -317,7 +366,7 @@
                         <!-- Work Item -->
 						<li class="work-item thumnail-img mix fashion">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/bella%20vista/Portada.JPG" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/fotos%20bella%20vista/bellavistaportada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -330,7 +379,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Bella vista</h4>
+                                    <h4>Bella vista</h4>
                                     <p>  Zonas Arboladas </p>
                                       
                                 </div>
@@ -342,7 +391,7 @@
                             <!-- Work Item -->
 						<li class="work-item thumnail-img mix fashion">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Solis-Bella%20vista-Las%20flores/portada%20las%20flores.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/fotos%20solis/PortadaNueva.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -355,7 +404,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Las flores</h4>
+                                    <h4>Las flores</h4>
                                     <p>  Acceso por calles angostas  </p>
                                       
                                 </div>
@@ -367,7 +416,7 @@
                         <!-- Work Item -->
 						<li class="work-item thumnail-img mix fashion">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Playa%20verde/Playa%20verde%20Portada.jpg" alt="playa verde" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -392,7 +441,7 @@
                             <!-- Work Item -->
 						<li class="work-item thumnail-img mix fashion">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/playa%20hermosa/Portada.JPG" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Playa%20hermosa/playa%20%20hermosa%20portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -417,11 +466,11 @@
                           <!-- Work Item -->
 						<li class="work-item thumnail-img mix fashion">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/playa%20grande/playa%20grande%20portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
-                                    <a href="Playa-grande.html">
+                                    <a href="Playa-Grande.html">
                                         <i class="fa fa-plus"></i>
                                     </a>
                                     
@@ -443,7 +492,7 @@
                           <!-- Work Item -->
 						<li class="work-item thumnail-img mix fashion">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Piriapolis/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Piriapolis/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -456,7 +505,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Piriapolis</h4>
+                                    <h4>Piriapolis</h4>
                                     <p>  Playa angosta y concurrida  </p>
                                       
                                 </div>
@@ -469,7 +518,7 @@
                              <!-- Work Item -->
 						<li class="work-item thumnail-img mix fashion">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/san%20francisco/Portada.JPG" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/san%20francisco/Portada.JPG" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -482,7 +531,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa San Francisco</h4>
+                                    <h4>San Francisco</h4>
                                     <p>  Playa amplia y agreste  </p>
                                       
                                 </div>
@@ -495,7 +544,7 @@
                               <!-- Work Item -->
 						<li class="work-item thumnail-img mix fashion">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/punta%20colorada/portada.JPG" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/fotos%20punta%20colorada/puntacoloradaportada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -508,7 +557,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Punta Colorada</h4>
+                                    <h4>Punta Colorada</h4>
                                     <p>  Playa amplia con grandes Rocas  </p>
                                       
                                 </div>
@@ -520,7 +569,7 @@
                                <!-- Work Item -->
 						<li class="work-item thumnail-img mix fashion">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/ocean%20park/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/ocean%20park/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -533,7 +582,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Ocean Park</h4>
+                                    <h4>Ocean Park</h4>
                                     <p>  Playa agreste, muy amplia y tranquila  </p>
                                       
                                 </div>
@@ -546,7 +595,7 @@
                                  <!-- Work Item -->
 						<li class="work-item thumnail-img mix fashion">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/chiuahua/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/chiuahua/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -559,7 +608,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Chihuahua</h4>
+                                    <h4> Chihuahua</h4>
                                     <p>  playa nudista </p>
                                       
                                 </div>
@@ -572,7 +621,7 @@
                                 <!-- Work Item -->
 						<li class="work-item thumnail-img mix fashion">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/tio tom/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/tio tom/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -585,7 +634,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Tio Tom</h4>
+                                    <h4>Tio Tom</h4>
                                     <p>  Playa amplia y tranquila </p>
                                       
                                 </div>
@@ -598,7 +647,7 @@
                                     <!-- Work Item -->
 						<li class="work-item thumnail-img mix fashion">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/solanas/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/solanas/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -611,7 +660,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Solanas</h4>
+                                    <h4>Solanas</h4>
                                     <p>  Playa amplia, especial para niños  </p>
                                       
                                 </div>
@@ -659,7 +708,7 @@
                                   <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Las Grutas/portada.png" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Las%20Grutas/las%20grutas%20portada.png" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -672,7 +721,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa las Grutas</h4>
+                                    <h4>las Grutas</h4>
                                     <p>   Playa amplia con espectacular vista </p>
                                       
                                 </div>
@@ -685,7 +734,7 @@
                                   <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Punta%20del%20chileno/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -698,7 +747,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Puntas del chileno</h4>
+                                    <h4>Puntas del chileno</h4>
                                     <p>  Explanada Para pesca </p>
                                       
                                 </div>
@@ -710,7 +759,7 @@
                                 <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/pinares 34, 39/portada.JPG" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/pinares 34, 39/portada.JPG" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -723,7 +772,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Pinares PARADA 39 a 27</h4>
+                                    <h4>Pinares PARADA 39 a 27</h4>
                                     <p>  los mejores atardeceres</p>
                                       
                                 </div>
@@ -735,7 +784,7 @@
                                  <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/mansa 24 a 19/Portada.JPG" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/mansa 24 a 19/Portada.JPG" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -748,7 +797,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Mansa PARADA 24 a 19</h4>
+                                    <h4>Mansa PARADA 24 a 19</h4>
                                     <p>  La mejor vista a gorriti</p>
                                       
                                 </div>
@@ -760,7 +809,7 @@
                                <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/parada 16 mansa/portada.JPG" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/parada 16 mansa/portada.JPG" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -773,7 +822,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Mansa PARADA 18 a 12</h4>
+                                    <h4>Mansa PARADA 18 a 12</h4>
                                     <p> Playa Amplia con mirador a la isla Gorriti</p>
                                       
                                 </div>
@@ -786,7 +835,7 @@
                                     <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/mansa 24 a 19/primera.JPG" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/mansa 24 a 19/primera.JPG" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -799,7 +848,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Mansa PARADA 10 y 11</h4>
+                                    <h4>Mansa PARADA 10 y 11</h4>
                                     <p> playas muy concurridas</p>
                                       
                                 </div>
@@ -811,7 +860,7 @@
                                          <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/mansa parada 8 y 9/portada.JPG" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/mansa parada 8 y 9/portada.JPG" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -824,7 +873,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Mansa PARADA 8 y 9</h4>
+                                    <h4>Mansa PARADA 8 y 9</h4>
                                     <p> Playas ideales para niños, con Area deportiva y duchas </p>
                                       
                                 </div>
@@ -836,7 +885,7 @@
                                              <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/mansa%20parada%208%20y%209/primera.JPG" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -849,7 +898,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Mansa PARADA 7 y 6</h4>
+                                    <h4>Mansa PARADA 7 y 6</h4>
                                     <p> Playas amplias ideales para niños </p>
                                       
                                 </div>
@@ -861,7 +910,7 @@
                                                 <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Mansa parada 1, 2,3,5/primera.png" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Mansa parada 1, 2,3,5/primera.png" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -874,7 +923,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Mansa PARADA 5</h4>
+                                    <h4>Mansa PARADA 5</h4>
                                     <p> Playa Amplia, alquiler de motos de agua</p>
                                       
                                 </div>
@@ -887,7 +936,7 @@
                                                   <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Mansa parada 1, 2,3,5/Portada.png" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Mansa%20parada%201%2C%202%2C3%2C5/mansaparada3.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -900,7 +949,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Mansa PARADA 3</h4>
+                                    <h4>Mansa PARADA 3</h4>
                                     <p> Playa con muelle para pesca</p>
                                       
                                 </div>
@@ -913,7 +962,7 @@
                          <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Mansa parada 1, 2,3,5/primera.png" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Mansa parada 1, 2,3,5/Portada.png" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -926,7 +975,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Mansa PARADA 2</h4>
+                                    <h4>Mansa PARADA 2</h4>
                                     <p> Paya resguardada</p>
                                       
                                 </div>
@@ -939,7 +988,7 @@
                                    <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Parada 1-2 mansa punta/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Parada 1-2 mansa punta/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -952,7 +1001,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Mansa PARADA 1</h4>
+                                    <h4>Mansa PARADA 1</h4>
                                     <p> Playa angosta</p>
                                       
                                 </div>
@@ -964,7 +1013,7 @@
                                       <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Muelle mahilos/portada.png" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Muelle%20mahilos/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -977,7 +1026,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Mansa Muelle de Mailhos</h4>
+                                    <h4>Muelle de Mailhos</h4>
                                     <p> La mejor para días de viento</p>
                                       
                                 </div>
@@ -1019,7 +1068,7 @@
                                 <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/playa%20de%20los%20ingleses/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/playa%20de%20los%20ingleses/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -1032,7 +1081,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa De los Ingleses</h4>
+                                    <h4> Playa De los Ingleses</h4>
                                     <p>  Pequeña playa entre rocas  </p>
                                       
                                 </div>
@@ -1045,7 +1094,7 @@
                                 <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/El%20Emir/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/El%20Emir/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -1058,8 +1107,8 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa El Emir</h4>
-                                    <p>  Playa para surfistas principiantes </p>
+                                    <h4> El Emir</h4>
+                                    <p>  Playa muy resguardada </p>
                                       
                                 </div>
                                  <!--End Caption-->
@@ -1071,7 +1120,7 @@
                                 <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/posta%20del%20cangrejo/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Los%20dedos/losdedosportada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -1084,8 +1133,33 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Los Dedos</h4>
+                                    <h4>Los Dedos</h4>
                                     <p>  Amplia playa concurrida </p>
+                                      
+                                </div>
+                                 <!--End Caption-->
+
+                            </div> <!-- /.work-image-->
+						</li> 
+						<!--End Work Item -->
+						             <!-- Work Item -->
+						<li class="work-item thumnail-img mix wedding">
+							<div class="work-image">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/la%20olla/la%20olla%20portada.jpg" alt="playa la olla" loading="lazy">
+                                
+                                 <!--Hover link-->
+                                 <div class="hover-link">
+                                    <a href="Playa-la olla.html">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    
+                                 </div>
+                                 <!--End link-->
+
+                                 <!--Hover Caption-->
+                                 <div class="work-caption">
+                                    <h4>La olla</h4>
+                                    <p>Playa resguardada</p>
                                       
                                 </div>
                                  <!--End Caption-->
@@ -1096,7 +1170,7 @@
                                 <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/5%20a%207%20brava/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/5%20a%207%20brava/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -1109,7 +1183,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Brava Parada 5, 6 y 7</h4>
+                                    <h4>Brava Parada 5 a 7</h4>
                                     <p>  Playas amplias y concurridas </p>
                                       
                                 </div>
@@ -1122,7 +1196,7 @@
                                   <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/8 brava/Portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/8 brava/Portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -1135,7 +1209,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Brava Parada 8</h4>
+                                    <h4>Brava Parada 8</h4>
                                     <p>  Playa concurridas </p>
                                       
                                 </div>
@@ -1148,7 +1222,7 @@
                                      <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/8%20brava/tercera.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -1161,7 +1235,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Brava Parada 9 y 10</h4>
+                                    <h4> Brava Parada 9 y 10</h4>
                                     <p>  Playas concurridas </p>
                                       
                                 </div>
@@ -1175,7 +1249,7 @@
                                      <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/12 brava/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/12 brava/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -1188,7 +1262,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Brava Parada 11, 12 y 13</h4>
+                                    <h4>Brava Parada 11 a 13</h4>
                                     <p>  Playas amplias </p>
                                       
                                 </div>
@@ -1201,7 +1275,7 @@
                                  <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/14, 15, 16 brava/portada.png" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/14, 15, 16 brava/portada.png" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -1214,7 +1288,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Brava Parada 14, 15 y 16</h4>
+                                    <h4>Brava Parada 14 a 16</h4>
                                     <p>  Playa Amplia De facil acceso </p>
                                       
                                 </div>
@@ -1228,7 +1302,7 @@
                                  <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/17%20y%2018%20brava/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/17%20y%2018%20brava/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -1241,7 +1315,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Brava Parada 17 y 18</h4>
+                                    <h4>Brava Parada 17 y 18</h4>
                                     <p>  Playa con grandes dunas </p>
                                       
                                 </div>
@@ -1254,7 +1328,7 @@
                                 <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/19%20y%2020%20brava/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/19%20y%2020%20brava/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -1267,7 +1341,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Brava Parada 19 y 20</h4>
+                                    <h4>Brava Parada 19 y 20</h4>
                                     <p>  Playa con grandes dunas </p>
                                       
                                 </div>
@@ -1280,7 +1354,7 @@
                                 <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/21%20brava/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/21%20brava/portada.jpg" alt="thumbnail"loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -1293,7 +1367,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Brava Parada 21</h4>
+                                    <h4>Brava Parada 21</h4>
                                     <p>  Playa Amplia de Facil Acceso </p>
                                       
                                 </div>
@@ -1306,7 +1380,7 @@
                                <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/25 brava/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/25 brava/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -1319,7 +1393,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Brava Parada 25</h4>
+                                    <h4>Brava Parada 25</h4>
                                     <p> Playas de grandes dunas </p>
                                       
                                 </div>
@@ -1332,7 +1406,7 @@
                                <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/30 brava/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/30 brava/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -1345,7 +1419,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Brava Parada 30</h4>
+                                    <h4>Brava Parada 30</h4>
                                     <p> Playa concurrida </p>
                                       
                                 </div>
@@ -1359,7 +1433,7 @@
                                <!-- Work Item -->
 						<li class="work-item thumnail-img mix wedding">
 							<div class="work-image">
-                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/34%2C32%2C30%20brava/portada.jpg" alt="thumbnail">
+                                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/34%2C32%2C30%20brava/portada.jpg" alt="thumbnail" loading="lazy">
                                 
                                  <!--Hover link-->
                                  <div class="hover-link">
@@ -1372,7 +1446,7 @@
 
                                  <!--Hover Caption-->
                                  <div class="work-caption">
-                                    <h4>Playa Brava Parada 32</h4>
+                                    <h4>Brava Parada 32</h4>
                                     <p> Playa agreste </p>
                                       
                                 </div>
@@ -1393,7 +1467,7 @@
           <!-- Work Item -->
       <li class="work-item thumnail-img mix event">
             <div class="work-image">
-                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/la%20barra/portada.jpg" alt="thumbnail">
+                <img src="https://storage.googleapis.com/chileback/cleach/images/playas/la%20barra/portada.jpg" alt="thumbnail" loading="lazy">
                 
                  <!--Hover link-->
                  <div class="hover-link">
@@ -1406,7 +1480,7 @@
 
                  <!--Hover Caption-->
                  <div class="work-caption">
-                    <h4>Playa La Barra</h4>
+                    <h4>La Barra - Desembocadura</h4>
                     <p> Playa muy resguardada de agua dulce </p>
                       
                 </div>
@@ -1418,7 +1492,7 @@
                   <!-- Work Item -->
       <li class="work-item thumnail-img mix event">
         <div class="work-image">
-            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/posta%20del%20cangrejo/primera.jpg" alt="thumbnail" loading="lazy">
             
              <!--Hover link-->
              <div class="hover-link">
@@ -1431,7 +1505,7 @@
 
              <!--Hover Caption-->
              <div class="work-caption">
-                <h4>Playa Posta Del cangrejo</h4>
+                <h4>Posta Del cangrejo</h4>
                 <p> Playa resguardada entre rocas </p>
                   
             </div>
@@ -1443,7 +1517,7 @@
                        <!-- Work Item -->
       <li class="work-item thumnail-img mix event">
         <div class="work-image">
-            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/montoya/portada.JPG" alt="thumbnail">
+            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/montoya/portada.JPG" alt="thumbnail" loading="lazy">
             
              <!--Hover link-->
              <div class="hover-link">
@@ -1456,7 +1530,7 @@
 
              <!--Hover Caption-->
              <div class="work-caption">
-                <h4>Playa Montoya</h4>
+                <h4>Montoya</h4>
                 <p> Playa amplia </p>
                   
             </div>
@@ -1469,7 +1543,7 @@
                         <!-- Work Item -->
       <li class="work-item thumnail-img mix event">
         <div class="work-image">
-            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/bikini/portada.jpg" alt="thumbnail">
+            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/bikini/portada.jpg" alt="thumbnail" loading="lazy">
             
              <!--Hover link-->
              <div class="hover-link">
@@ -1482,7 +1556,7 @@
 
              <!--Hover Caption-->
              <div class="work-caption">
-                <h4>Playa Bikini</h4>
+                <h4>Bikini</h4>
                 <p>playa protegida </p>
                   
             </div>
@@ -1494,7 +1568,7 @@
                        <!-- Work Item -->
       <li class="work-item thumnail-img mix event">
         <div class="work-image">
-            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/el chorro/portada.png" alt="thumbnail">
+            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/el chorro/portada.png" alt="thumbnail" loading="lazy">
             
              <!--Hover link-->
              <div class="hover-link">
@@ -1507,7 +1581,7 @@
 
              <!--Hover Caption-->
              <div class="work-caption">
-                <h4>Playa El Chorro</h4>
+                <h4>El Chorro</h4>
                 <p>Playa amplia y agreste</p>
                   
             </div>
@@ -1519,7 +1593,7 @@
                        <!-- Work Item -->
       <li class="work-item thumnail-img mix event">
         <div class="work-image">
-            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Balneareo bsas/portada.png" alt="thumbnail">
+            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Balneareo bsas/portada.png" alt="thumbnail" loading="lazy">
             
              <!--Hover link-->
              <div class="hover-link">
@@ -1532,7 +1606,7 @@
 
              <!--Hover Caption-->
              <div class="work-caption">
-                <h4>Playa Buenos Aires</h4>
+                <h4>Balneario Buenos Aires</h4>
                 <p>Playas agrestes, poco concurridas</p>
                   
             </div>
@@ -1546,7 +1620,7 @@
                       <!-- Work Item -->
       <li class="work-item thumnail-img mix event">
         <div class="work-image">
-            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/CleachMuestraPlaya.png" alt="thumbnail">
+            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Balneareo%20bsas/tercera.jpg" alt="thumbnail" loading="lazy">
             
              <!--Hover link-->
              <div class="hover-link">
@@ -1559,7 +1633,7 @@
 
              <!--Hover Caption-->
              <div class="work-caption">
-                <h4>Playa Santa Monica</h4>
+                <h4>Santa Monica</h4>
                 <p>Playa extensa, tranquila y agreste</p>
                   
             </div>
@@ -1572,7 +1646,7 @@
                       <!-- Work Item -->
       <li class="work-item thumnail-img mix event">
         <div class="work-image">
-            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/la%20juanita/portada.jpg" alt="thumbnail">
+            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/la%20juanita/portada.jpg" alt="thumbnail" loading="lazy">
             
              <!--Hover link-->
              <div class="hover-link">
@@ -1585,7 +1659,7 @@
 
              <!--Hover Caption-->
              <div class="work-caption">
-                <h4>Playa La Juanita</h4>
+                <h4>La Juanita</h4>
                 <p>Playa extensa</p>
                   
             </div>
@@ -1599,7 +1673,7 @@
                       <!-- Work Item -->
       <li class="work-item thumnail-img mix event">
         <div class="work-image">
-            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/jose%20ignacio%20mansa/portada.jpg" alt="thumbnail">
+            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/jose%20ignacio%20mansa/portada.jpg" alt="thumbnail" loading="lazy">
             
              <!--Hover link-->
              <div class="hover-link">
@@ -1612,7 +1686,7 @@
 
              <!--Hover Caption-->
              <div class="work-caption">
-                <h4>Playa Mansa de Jose Ignacio</h4>
+                <h4>Mansa de Jose Ignacio</h4>
                 <p>Pequeña peninsula</p>
                   
             </div>
@@ -1624,7 +1698,7 @@
                        <!-- Work Item -->
       <li class="work-item thumnail-img mix event">
         <div class="work-image">
-            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Jose Ignacio Brava/portada.jpeg" alt="thumbnail">
+            <img src="https://storage.googleapis.com/chileback/cleach/images/playas/Jose Ignacio Brava/portada.jpeg" alt="thumbnail" loading="lazy">
             
              <!--Hover link-->
              <div class="hover-link">
@@ -1637,7 +1711,7 @@
 
              <!--Hover Caption-->
              <div class="work-caption">
-                <h4>Playa Brava de Jose Ignacio</h4>
+                <h4>Brava de Jose Ignacio</h4>
                 <p>Playa agreste, concurrida</p>
                   
             </div>
@@ -1676,7 +1750,7 @@
 
  
     <!--Start Events-->
-  <section id="eventos" class="section parallax">
+    <section id="eventos" class="section parallax">
         <div class="overlay"></div>
        <div id="eventCalendar" class="container">
            <div class="row">
@@ -1702,92 +1776,21 @@
   
  
     <!--Start clients-->
+
+
+      <!--proximamante-->
     <section id="sponsors" class="section">
            <div class="container">
                <div class="row">
                
-            <div class="title-box text-center">
-                <h2 class="title">Nuestros Sponsor</h2>
-             </div>
-                
-                   <div class="clients-carousel">
-                   
-                       <!-- Clients Logo Item-->
-                        <div class="item">
-                            <a href="#">
-                                <figure>
-                                    <img src="https://storage.googleapis.com/chileback/cleach/images/clients-logo/client1.png" alt="" />
-                                </figure>
-                            </a>
-                        </div>
-                        
-                       <!-- Clients Logo Item-->
-                        <div class="item">
-                            <a href="#">
-                                <figure>
-                                      <img src="https://storage.googleapis.com/chileback/cleach/images/clients-logo/client2.png" alt="" />
-                                </figure>
-                            </a>
-                        </div>
-                        
-                        <!-- Clients Logo Item-->
-                        <div class="item">
-                            <a href="#">
-                                <figure>
-                                      <img src="https://storage.googleapis.com/chileback/cleach/images/clients-logo/client3.png" alt="" />
-                                </figure>
-                            </a>
-                        </div>
-                        
-                        <!-- Clients Logo Item-->
-                        <div class="item">
-                            <a href="#">
-                                <figure>
-                                     <img src="https://storage.googleapis.com/chileback/cleach/images/clients-logo/client4.png" alt="" />
-                                </figure>
-                            </a>
-                        </div>
-                        
-                       <!-- Clients Logo Item-->
-                        <div class="item">
-                            <a href="#">
-                                <figure>
-                                      <img src="https://storage.googleapis.com/chileback/cleach/images/clients-logo/client2.png" alt="" />
-                                </figure>
-                            </a>
-                        </div>
-                        
-                       <!-- Clients Logo Item-->
-                        <div class="item">
-                            <a href="#">
-                                <figure>
-                                      <img src="https://storage.googleapis.com/chileback/cleach/images/clients-logo/client5.png" alt="" />
-                                </figure>
-                            </a>
-                        </div>
-                        
-                        <!-- Clients Logo Item-->
-                        <div class="item">
-                            <a href="#">
-                                <figure>
-                                     <img src="https://storage.googleapis.com/chileback/cleach/images/clients-logo/client4.png" alt="" />
-                                </figure>
-                            </a>
-                        </div>
-                        
-                        <!-- Clients Logo Item-->
-                        <div class="item">
-                            <a href="#">
-                                <figure>
-                                     <img src="https://storage.googleapis.com/chileback/cleach/images/clients-logo/client1.png" alt="" />
-                                </figure>
-                            </a>
-                        </div>
+          
 		         </div>
                </div> <!--/.row-->
          </div> <!--/.container-->
     </section>
    <!--End clients-->
+
+   
    
    <!--Start Contact-->
    <section id="contacto" class="section parallax">
@@ -1797,6 +1800,7 @@
            
                  <div class="title-box text-center white">
                     <h2 class="title">Contacto</h2>
+                    <p style="color: white;">Si tienes alguna duda, consulta o sugerencia no dudes en escribirnos!</p>
                  </div>
              </div>
 
@@ -1841,7 +1845,7 @@
                <div class="col-md-6 col-sm-6 col-xs-6">
                    <div class="copyright"><p>Copyright © 2023 Todos los derechos reservados por Cleach
                  </p></div>
-                 <div class="copyright"><p>Desarrollado por: <a href="Softech.uy">Softech</a>
+                 <div class="copyright"><p>Desarrollado por: <a href="https://softech.uy/">Softech</a>
                  </p></div>
                </div>
                <!--End copyright-->
@@ -1850,10 +1854,9 @@
                <div class="col-md-6 col-sm-6 col-xs-6">
                    <div class="social-icons">
                        <ul>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                       
+                       
+                        <li><a href="https://www.instagram.com/reel/Cw5hwqZgIb0/?igshid=ODk2MDJkZDc2Zg=="><i class="fa fa-instagram"></i></a></li>
                        </ul>
                     </div>
                </div>
@@ -1868,27 +1871,26 @@
     <!--Plugins-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        
         AOS.init({
           duration: 1200,
         });
       </script>
-        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="crossorigin=""></script>
-        <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
-        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script> 
-        <script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
-        <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-        <script type="text/javascript" src="js/easing.js"></script>
-        <script type="text/javascript" src="js/jquery.easypiechart.js"></script>
-        <script type="text/javascript" src="js/jquery.appear.js"></script>
-        <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
-        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-        <script type="text/javascript" src="js/custom.js"></script>
-        <script type="text/javascript" src="js\buscadorDeTexto.js"></script>
-        <script type="text/javascript" src="js/funciones.mapa.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="crossorigin=""></script>
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/jquery.easypiechart.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js\buscadorDeTexto.js"></script>
+    <script type="text/javascript" src="js/funciones.mapa.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
  </body>
 </html>
 
