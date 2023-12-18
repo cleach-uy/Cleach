@@ -63,6 +63,7 @@ const playas = [
   {nombre: " Piriapolis",lat: -34.8677,lon: -55.2768,buttonUrl: "Playa-Piriapolis.html",},
   {nombre: " San Francisco",lat: -34.8901,lon: -55.2695,buttonUrl: "Playa-San-Francisco.html",},
   {nombre: " Punta Colorada",lat: -34.9000,lon: -55.2467,buttonUrl: "Playa-Punta-Colorada.html",},
+  {nombre: " Punta Negra",lat: -34.8949,lon: -55.2214,buttonUrl: "Playa-Punta-Negra.html",},
   {nombre: " Ocean Park",lat: -34.8783,lon: -55.1217,buttonUrl: "Playa-Ocean-Park.html",},
   {nombre: " Chihuahua",lat: -34.8776,lon: -55.0960,buttonUrl: "Playa-Chihuahua.html",},
   {nombre: " Tio Tom",lat: -34.8776,lon: -55.0796,buttonUrl: "Playa-Tio-Tom.html",},
