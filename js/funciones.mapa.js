@@ -115,33 +115,36 @@ async function updatePopup(marker, lat, lon, playa, buttonUrl) {
 
   let windText = "";
 
+ 
   if (weatherData.wind <= 1) {
     windText = "Calma";
-  } else if (weatherData.wind <= 5) {
-    windText = "Brisa muy débil";
-  } else if (weatherData.wind <= 11) {
-    windText = "Brisa débil";
-  } else if (weatherData.wind <= 19) {
-    windText = "Brisa ligera";
-  } else if (weatherData.wind <= 28) {
-    windText = "Brisa moderada";
-  } else if (weatherData.wind <= 38) {
+  } else if (weatherData.wind <= 6) {
+    windText = "brisa debil";
+  } else if (weatherData.wind <= 10) {
+    windText = "Brisa";
+  } else if (weatherData.wind <= 14) {
     windText = "Brisa fuerte";
-  } else if (weatherData.wind <= 49) {
-    windText = "Viento";
-  } else if (weatherData.wind <= 61) {
-    windText = "Viento fuerte";
-  } else if (weatherData.wind <= 74) {
+  } else if (weatherData.wind <= 18) {
+    windText = "Viento Debil";
+  } else if (weatherData.wind <= 24) {
+    windText = "Ventoso";
+  } else if (weatherData.wind <= 30) {
+    windText = "Viento Fuerte";
+  } else if (weatherData.wind <= 40) {
+    windText = "Vientos muy fuertes";
+  } else if (weatherData.wind <= 50) {
     windText = "Temporal";
-  } else if (weatherData.wind <= 88) {
-    windText = "Temporal fuerte";
+  } else if (weatherData.wind <= 60) {
+    windText = "Temporal Duro";
   } else if (weatherData.wind <= 102) {
-    windText = "Temporal duro";
+    windText = "Temporal Huracanado";
   } else if (weatherData.wind <= 117) {
-    windText = "Temporal muy duro";
+    windText = "Temporal Huracanado";
   } else {
     windText = "Huracán";
   }
+  
+
   
  
   let popupContent = `
